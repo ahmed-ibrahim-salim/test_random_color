@@ -4,10 +4,21 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a .
+This project is just to test if colors can be generated using code, lets find out.
 
-A few resources to get you started if this is your first Flutter project:
+## Setup the project:
+1- clone the project
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2- open the project folder using your favourite IDE.
 
+3- in terminal run "flutter pub get" to install the packages.
+
+4- now run the project and click anywhere and see the results.
+
+
+
+## Structure:
+
+1- it has 2 classes one for the widget and the other for ColorGenerator.
+
+2- this project has only one test it can be found it test/ folder.
