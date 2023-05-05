@@ -21,4 +21,4 @@ This project is just to test if colors can be generated using code, lets find ou
 
 1- it has 2 classes one for the widget and the other for ColorGenerator.
 
-2- this project has only one test it can be found it test/ folder.
+2- this project has only one test it can be found it test/color_generator_test.dart.

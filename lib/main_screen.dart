@@ -15,7 +15,7 @@ class _MainScreenState extends State<MainScreen> {
   // initial color
   Color backgroundColor = const Color.fromARGB(255, 210, 200, 150);
 
-  generateRandomColor() {
+  _generateRandomColor() {
     //
     setState(() {
       backgroundColor = ColorGenerator.generateRandomColor();
@@ -26,7 +26,7 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        generateRandomColor();
+        _generateRandomColor();
       },
       child: Scaffold(
         backgroundColor: backgroundColor,
